@@ -46,5 +46,3 @@ Live public URL ready in ~2 minutes. No credit card needed.
 Tech stack
 XGBoost · FastAPI · Pandas · scikit-learn · Uvicorn
 
-Files
-FilePurposechurn_prediction_system.pyTrain model + score all customersapp.pyFastAPI prediction APIbatch_score.pyNightly automated scoring pipelinerequirements.txtPython dependenciescustomer_churn_dataset.csvTraining dataset
