@@ -1,12 +1,3 @@
-# ============================================================
-# Customer Churn Prediction System
-# Built by Gift | Grow With Me Challenge — Day 2
-# ============================================================
-# HOW TO RUN:
-#   pip install pandas numpy scikit-learn xgboost matplotlib
-#   python churn_prediction_system.py
-# ============================================================
-
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
