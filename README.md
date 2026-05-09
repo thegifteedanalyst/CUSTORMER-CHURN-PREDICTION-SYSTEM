@@ -1,15 +1,15 @@
-## Customer Churn Prediction System
-A deployable ML system that predicts which customers are about to leave your business — before they do. Input a customer's data, get back a churn probability score and automated retention action in real time.
+## CUSTOMER CHURN PREDICTION SYSTEM
+A deployable ML system that predicts which customers are about to leave your business before they do. Input a customer's data, get back a churn probability score and automated retention action in real time.
 
 ## What it does
 
 1. Scores every customer with a churn probability (0 to 1)
 2.Segments them into High, Medium, and Low risk tiers
-3.Recommends the right action for each — discount, email sequence, or loyalty reward
-4.Runs as a live REST API — plug it into any CRM, Shopify store, or email platform
+3.Recommends the right action for each discount, email sequence, or loyalty reward
+4.Runs as a live RenderAPI — plug it into any CRM, Shopify store, or email platform
 
 
-Quickstart
+# Quickstart
 bash# Install dependencies
 pip install -r requirements.txt
 
@@ -36,13 +36,13 @@ json{
   ]
 }
 
-Deploy to cloud (free)
+# Deploy to cloud (free)
 bash# Push to GitHub, then go to render.com
 # New → Web Service → Connect repo
 # Start command:
 uvicorn app:app --host 0.0.0.0 --port 8000
 Live public URL ready in ~2 minutes. No credit card needed.
 
-Tech stack
+# Tech stack
 XGBoost · FastAPI · Pandas · scikit-learn · Uvicorn
 
